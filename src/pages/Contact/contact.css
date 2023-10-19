@@ -1,5 +1,5 @@
 .contact__container {
-  grid-template-columns: 4fr 8fr;
+  /* grid-template-columns: 4fr 8fr; */
 }
 .contact__title {
   font-size: var(--h3-font-size);

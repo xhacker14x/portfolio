@@ -1,6 +1,6 @@
 import { Info, Stats } from "../../components";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/steve-Cv.pdf";
+import CV from "../../assets/Omar-Danga-CV.pdf";
 import "./about.css";
 import { Skills, ResumeItem } from "../../components";
 import { resume } from "../../data";

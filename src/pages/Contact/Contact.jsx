@@ -6,6 +6,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedin,
+  FaSkype,
 } from "react-icons/fa";
 import { BsSendFill } from "react-icons/bs";
 import { toast } from "react-toastify";
@@ -80,7 +81,16 @@ const Contact = () => {
 
               <div>
                 <span className="info__title">Call me</span>
-                <h4 className="info__desc">+63 970 100 7032</h4>
+                <h4 className="info__desc">+63 956 096 9167</h4>
+              </div>
+            </div>
+
+            <div className="info__item">
+              <FaSkype className="info__icon" />
+
+              <div>
+                <span className="info__title">Message me</span>
+                <h4 className="info__desc">xhacker14x1</h4>
               </div>
             </div>
           </div>
@@ -109,7 +119,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="contact__form" ref={form} onSubmit={sendEmail}>
+        {/* <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">
               <input
@@ -148,7 +158,7 @@ const Contact = () => {
               <BsSendFill />
             </span>
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

@@ -108,11 +108,6 @@ export const personalInfo = [
     title: "Nationality : ",
     description: "Filipino",
   },
-  {
-    id: uuid(),
-    title: "Email : ",
-    description: "omardanga@yahoo.com",
-  },
 
   {
     id: uuid(),
@@ -122,18 +117,8 @@ export const personalInfo = [
 
   {
     id: uuid(),
-    title: "Phone : ",
-    description: "+63 970 100 7032",
-  },
-  {
-    id: uuid(),
     title: "Languages : ",
     description: "Tagalog, English",
-  },
-  {
-    id: uuid(),
-    title: "Skype : ",
-    description: "xhacker14x1",
   },
 ];
 
@@ -151,7 +136,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "Mar 2020 - PRESENT",
-    title: "Web Developer / Designer<span> SMMILE Digital</span>",
+    title: "Web Developer / Designer<span> SMMILE Digital, Pte. Ltd.</span>",
     desc: "Singapore (home-based)",
   },
 
@@ -160,7 +145,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "Dec 2018 - Feb 2020",
-    title: "Web Developer / Designer<span> Web Innovation PH</span>",
+    title: "Web Developer / Designer<span> Web Innovation PH, Corp.</span>",
     desc: "Ortigas, Philippines",
   },
 
@@ -169,7 +154,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "Jun 2016 - Nov 2018",
-    title: "Front-End Developer <span> Bastion Payment Systems </span>",
+    title: "Front-End Developer <span> Bastion Payment Systems, Corp </span>",
     desc: "Makati, Philippines",
   },
   {
@@ -177,7 +162,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "May 2013 - Mar 2016",
-    title: "Web & Graphic Designer <span> Asiatravel </span>",
+    title: "Web & Graphic Designer <span> Asiatravel, Inc. </span>",
     desc: "Ortigas, Philippines",
   },
   {
@@ -218,6 +203,11 @@ export const skills = [
     id: uuid(),
     title: "CSS",
     percentage: "87",
+  },
+  {
+    id: uuid(),
+    title: "Styled Components",
+    percentage: "85",
   },
   {
     id: uuid(),
@@ -283,11 +273,6 @@ export const skills = [
     id: uuid(),
     title: "GIT / GitHub",
     percentage: "78",
-  },
-  {
-    id: uuid(),
-    title: "cPanel",
-    percentage: "75",
   },
   {
     id: uuid(),
