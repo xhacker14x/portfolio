@@ -999,7 +999,3 @@ export const themes = [
     color: "hsl(339, 81%, 66%)",
   },
 ];
-export const hibi = [
-  { id: uuid(), name: "apple", num: "09567110041" },
-  { id: uuid(), name: "arriane", num: "09764252797" },
-];
