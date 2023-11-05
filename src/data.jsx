@@ -264,15 +264,16 @@ export const skills = [
     title: "Elementor",
     percentage: "83",
   },
-  {
-    id: uuid(),
-    title: "Shopify",
-    percentage: "65",
-  },
+
   {
     id: uuid(),
     title: "WooCommerce",
     percentage: "80",
+  },
+  {
+    id: uuid(),
+    title: "Shopify",
+    percentage: "65",
   },
   {
     id: uuid(),
