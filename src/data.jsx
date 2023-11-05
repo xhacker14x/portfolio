@@ -273,7 +273,7 @@ export const skills = [
   {
     id: uuid(),
     title: "Shopify",
-    percentage: "65",
+    percentage: "70",
   },
   {
     id: uuid(),
