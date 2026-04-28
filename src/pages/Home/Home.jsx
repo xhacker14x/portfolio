@@ -1,41 +1,41 @@
-import "./home.css";
-import Profile from "../../assets/profile.webp";
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+import './home.css';
+import Profile from '../../assets/profile.webp';
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <section className="home section grid">
-      <img src={Profile} alt="profile" className="home__img" />
+    <section className='home section grid'>
+      <img src={Profile} alt='profile' className='home__img' />
 
-      <div className="home__content">
-        <div className="home__data">
-          <h1 className="home__title">
-            <span>I'm Omar Danga.</span> <br />{" "}
-            <span className="weight-400">
+      <div className='home__content'>
+        <div className='home__data'>
+          <h1 className='home__title'>
+            <span>I'm Omar Danga.</span> <br />{' '}
+            <span className='weight-400'>
               Front-End Developer & <br />
               Graphic Designer
             </span>
           </h1>
 
-          <p className="home__description">
-            Innovative, task-driven professional with 10+ years of experience in
+          <p className='home__description'>
+            Innovative, task-driven professional with 13 years of experience in
             web design and development across diverse industries. Proficient in
             creating user interfaces, writing and testing codes, troubleshooting
             simple or complex issues, and implementing new features based on
             user feedback.
           </p>
 
-          <Link to="/about" className="button">
+          <Link to='/about' className='button'>
             More About Me
-            <span className="button__icon">
+            <span className='button__icon'>
               <FaArrowRight />
             </span>
           </Link>
         </div>
       </div>
 
-      <div className="color__block"></div>
+      <div className='color__block'></div>
     </section>
   );
 };
