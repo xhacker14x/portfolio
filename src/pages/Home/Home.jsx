@@ -19,11 +19,11 @@ const Home = () => {
           </h1>
 
           <p className='home__description'>
-            Innovative, task-driven professional with 13 years of experience in
-            web design and development across diverse industries. Proficient in
-            creating user interfaces, writing and testing codes, troubleshooting
-            simple or complex issues, and implementing new features based on
-            user feedback.
+            Full-Stack Web Developer with 13+ years of experience building,
+            debugging, and maintaining production-grade web applications.
+            Skilled in ReactJS, JavaScript, TypeScript, PHP, REST APIs,
+            WordPress development, troubleshooting complex issues, and improving
+            code quality across client projects.
           </p>
 
           <Link to='/about' className='button'>

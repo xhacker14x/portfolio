@@ -135,7 +135,16 @@ export const resume = [
     id: uuid(),
     category: 'experience',
     icon: <FaBriefcase />,
-    year: 'Mar 2020 - 2023',
+    year: 'Dec 2023 - Present',
+    title: 'Web Developer<span> Intero Digital</span>',
+    desc: 'Colorado, United States (home-based)',
+  },
+
+  {
+    id: uuid(),
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Mar 2020 - Dec 2023',
     title: 'Web Developer / Designer<span> SMMILE Digital, Pte. Ltd.</span>',
     desc: 'Singapore (home-based)',
   },
